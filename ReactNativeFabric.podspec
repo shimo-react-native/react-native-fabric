@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
   s.preserve_paths      = 'README.md', 'LICENSE', 'package.json'
   s.source_files        = 'ios/**/*.{h,m}'
   s.exclude_files       = 'android/**/*'
+  s.static_framework    = true
 end

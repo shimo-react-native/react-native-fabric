@@ -1,6 +1,6 @@
 {
-  "name": "react-native-fabric",
-  "version": "0.5.0",
+  "name": "@shimo/react-native-fabric",
+  "version": "0.5.0-shimo.1",
   "description": "A React Native library for Fabric, Crashlytics and Answers",
   "main": "index",
   "scripts": {
@@ -29,6 +29,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/corymsmith/react-native-fabric.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.shimo.run/"
   },
   "license": "MIT"
 }
